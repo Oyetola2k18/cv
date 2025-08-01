@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    text-align: center;
+    /* centering everything in a div */
+    font-family: "Merriweather", serif;
+}
+h1{
+    color: #207979;
+    font-size: 5.625rem;
+    /* width: 10%;
+    margin: 0 auto; */
+    /* the line above allows us to align any element that has its width set */
+    font-family: "Sacramento", cursive;
+    margin: 50px auto 0 auto;
+    /* line-height: 2; */
+}
+h2{
+    color: #207979;
+    font-size:  2.5rem;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999E;
+    font-family: "Montserrat", sans-serif;
+}
+.top {
+    background-color:#a5d6d3;
+    position: relative;
+    padding-top: 100px;
+}
+a{
+    color: #11999E;
+}
+.abt{
+    font-weight: normal;
+}
+.upper_cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+.bottom_cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.my_image{
+    width:150px;
+    border-radius: 100%;
+}
+.skill_img{
+    width: 25%;
+    border-radius: 100%;
+    margin: 0 auto;
+    float: left;
+    padding-right: 30px;
+}
+.skill-row{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    line-height: 2
+}
+.gaming_img{
+    width: 25%;
+    margin: 0;
+    float: right;
+    padding-left: 30px;
+}
+.middle-container{
+    margin: 100px 0;
+
+}
+.bottom-container{
+    margin-top: 13px;
+    padding: 30px;
+    margin-bottom: 0;
+    background-color: #a5d6d3;
+}
+.pro{
+    text-decoration: underline;
+}
+/* .txt-clr{
+    clear: right;
+} */
+
+.btn {
+   margin-top: 25px;
+   border-radius: 0;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   width: 100px;
+   font-size: 14px;
+   font-weight: 100;
+   padding: 16px;
+   background-color: #22E5E5;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 5px;
+}
+
+.btn:hover {
+   background: #207979;
+   border: solid #207979 1px;
+   border-radius: 0;
+   text-decoration: none;
+}
+hr{
+    margin-top: 100px;
+    width: 50px auto;
+    border-color: gray;
+    border-style: dotted none none none;
+    border-width: 5px;
+    width: 5%;
+}
+a{
+    text-decoration: none;
+    margin-right: 30px
+}
+p{
+    margin-bottom: 0;
+    line-height: 2;
+}
+.about-txt{
+    width: 50%;
+    margin: 0 auto;
+}
+.skill-row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
